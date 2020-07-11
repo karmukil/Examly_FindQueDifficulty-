@@ -118,7 +118,7 @@ void calculate()
     question_set[q.ques_no]=difficulty;
 }
 
-print_time_taken()
+void print_time_taken()
 {
     int n=q.total_no_stud_attended;
     for(int i=0;i<n;i++)
@@ -185,3 +185,4 @@ int main()
     cout<<"THANK YOU";
 
 }
+
